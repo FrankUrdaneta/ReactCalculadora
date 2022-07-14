@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=montserrat&display=swap');
+/**********************************************
+GLOBALES*************************************/
+body{
+    font-family: 'montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/**********************************************
+***********************MENU*************************************/
+#menu li> a{ /*con esto le indico que solo aplica a los "a" que estendentro de li*/
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form>button{/*con esto le indico que solo aplica a los "button" que esten dentro de form*/
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/**********************************************
+***********************SLIDER DE IMAGENES****************/
+.carousel-inner{
+    max-height: 39rem;
+}
+/**********************************************
+***************MAPA********************/
+.mapa{
+    width: 40%;
+    height: 500px;
+    margin-block: center;
+    padding-top: 100px;
+    
+}
+
+#local{
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 60%;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+/**********************************************
+***************SECCION NUESTRO EQUIPO CORDOBA********************/
+#numeros-local div{
+    padding: 0 20px 0 0;
+    height: 48;
+}
+#numeros-local div:not(:last-child){/*aca le indicamos que solo afectrara al ultimo div del id numeros-local*/
+    border-right: 2px solid #3f3f3f;/*creamos el borde derecho solamente*/
+}
+
+#numeros-local div:not(:first-child){/*creamos el borde solo al primer div*/
+    padding-left: 20px;
+}
+
+#numeros-local p{
+    margin: 0;
+}
+
+/**********************************************
+********CONTACTOS BACKGROUND********************/
+#bg-contacto{
+    position: relative;
+    top: 130px;/*con esta opcion movemos la imagen hacia arriba*/
+}
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+/**********************************************
+********CONTENEDOR FORMULARIO********************/
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+}
+/**********************************************
+********MEDIA QUERIES PANTALLA ANCHA*****/
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+
+/**********************************************
+********MEDIA QUERIES PANTALLA ANCHA********************/
+@media(max-width:1200px){
+    #local{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+
+/**********************************************
+**********MEDIA QUERIES PANTALLA SM*******
+*************/
+@media(max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    #bg-contacto{
+        top: 110px;/*con esta opcion movemos la imagen hacia arriba*/
+    }
+}
+
+/**********************************************
+**********MEDIA QUERIES PANTALLA EXTRA SM*******
+*************/
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    
+    
+}

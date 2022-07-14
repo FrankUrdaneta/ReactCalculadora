@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>NovatosSheAndMe </title>
+  </head>
+  <body>
+    <!--===================================================0-->
+     <!--==ENCABEZADO=====0-->
+     <!--===================================================0-->
+<header class="container-fluid bg-primary d-flex justify-content-center ">
+    
+</header>
+<nav class="navbar navbar-expand bg-light p-3 fixed-top" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="text-primary fs-5 fw-bold" >  NovaCofee</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contenedor-formulario">Contacto</a></li>
+          </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="email" placeholder="example@urdaneta.com" aria-label="email">
+          <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--===================================================0-->
+     <!--==SLIDER DE IMAGENES=====0-->
+     <!--===================================================0-->
+     <div id="carouselExampleControls" class="carousel slide mh-25" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active" data-bs-interval="3000"><!--data-bs-interval="3000" este parametro s la velocidad con la que la imagen cambia-->
+            <img src="images/cafe1.jpg" class="d-block w-100" alt="cafe1">
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000"> 
+            <img src="images/cafe2.jpg" class="d-block w-100" alt="cafe2">
+          </div>
+
+          <div class="carousel-item " data-bs-interval="3000">
+            <img src="images/equipo3.jpg" class="d-block w-100" alt="cafe3">
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/cafe4.jpg" class="d-block w-100" alt="cafe4">
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/cafe5.jpg" class="d-block w-100" alt="cafe5">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--===================================================0-->
+     <!--==INTROOOO=====0-->
+     <!--===================================================0-->
+     <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Una agencia unica para todas tus necesidades de 
+            <span class="text-primary">Cafeteria Digital</span></h1>
+        <p class="p-3 fs-4"><span class="text-primary">NovaCafe. </span> Porque NovaCafe?
+            It is a long established fact that a reader will be distracted by the readable content of
+             a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters, as opposed to using 'Content here, content here', making it look
+               like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum
+                as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in                
+                 purpose (injected humour and the like).</p>
+     </section>
+
+     <!--===================================================0-->
+     <!--==SERVICIOS=====0-->
+     <!--===================================================0-->
+     <section class="container-fluid">
+        <div class="row w-75 mx-auto  servicio-fila">
+            <div class="col-lg-6 col-sm-12 d-flex  my-5 icono-wrap">
+                <img   src="images/moca.jpg"  class="img-wrap rounded" alt="Mocaccino" width="180" height="160">
+            
+                <div>
+                    <h2 class="fs-3 mt-4 px-4 pb-1">Mocaccino</h2>
+                    <p class="px-4 fs-5"> también se le conoce como mocachino, Moka o Moca. Lo que debes saber es 
+                    distinguirlo del capuccino, que no lleva chocolate</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 d-flex  my-5 icono-wrap">
+                <img  src="images/frapu.jpg" class="img-wrap rounded" alt="Frapuccino" width="180" height="160">
+            
+            <div>
+                <h3 class="fs-3 mt-4 px-4 pb-1"> Frapuccino</h3>
+                <p class="px-4 fs-5"> En una licuadora verter el café frío, la leche,
+                     el azúcar y los hielos. Licuar bien. Verter en tazas o en 
+                     cualquier recipiente que guste hasta antes de llegar ...</div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 d-flex  my-5 icono-wrap">
+                <img class="img-wrap rounded" src="images/expreso.jpg" alt="Expreso" width="180" height="160">
+            
+            <div>
+                <h3 class="fs-3 mt-4 px-4 pb-1"> Expreso</h3>
+                <p class="px-4 fs-5"> Empecemos por el principio. El café expreso es un tipo de café que contiene mayor cantidad de cafeína por volumen que la mayoría de los cafés, por eso se sirve ....</div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 d-flex  my-5 icono-wrap">
+                <img  src="images/ristretto.jpg"  class="img-wrap rounded" alt="Ristretto" width="180" height="160">
+            
+            <div>
+                <h3 class="fs-3 mt-4 px-4 pb-1"> Ristretto</h3>
+                <p class="px-4 fs-5"> en italiano significa “limitado o restringido”, por lo que el café ristretto no es más que un espresso corto preparado con la misma cantidad de café ....</div>
+            </div>
+    </div>
+</section>
+     <!--===================================================0-->
+     <!--==ACERCA DE NOSOTROS=====0-->
+     <!--===================================================0-->
+     <section>
+        <div class="w-75 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary"> pensamientos grandes</span></h1>
+            <p class="fs-3">Siempre buscamos las personas adecuadas para que trabajen con nosotros,
+                Si te sientes listo para este reto, te esperamos para que te unas a nosotros
+            </p>
+        </div>
+
+        <div class="mt-5 text-center align-items-center justify-content-center">
+            <img class="rounded img-fluid" src="images/equipo2.jpg" alt="equipo">
+        </div>
+
+
+        <!--===================================================0-->
+     <!--==ZONA MAPA=====0-->
+     <!--===================================================0-->
+     <div id="local" class="border-top border-2">
+        <div class="mapa d-flex " >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45809.88456250969!2d-64.21498585541056!3d-31.418532940917093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses!2sar!4v1657667378768!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              </div>
+        <div>
+           <div class="wrapper justify-content-center">
+               <h2>Ubicado en Cordoba, Argentina</h2>
+               <h2 class="text-primary mb-4"
+               id="typewriter"></h2>
+               <p class="fs-5">Elegimos cordoba por sus Alternativas Turísticas. Su amplio territorio, sus geografía cambiante, sus diversos paisajes y su mezcla de culturas hacen de la Provincia un destino con múltiples atractivos 
+                turísticos y experiencias para sus eventos asociativos, corporativos e incentivos.</p>
+               <section class="d-flex" id="numeros-local">
+                <div>
+                <p class="text-primary fs-5">248</p>
+                <p>Dias de Sol</p>
+                </div>
+                
+                <div>
+                <p class="text-primary fs-5">100%</p>
+                <p>Aprobado</p>
+                </div>
+                
+                <div>
+                <p class="text-primary fs-5">24 C°</p>
+                <p>Temperatura</p>
+                </div>
+                
+               </section>
+           </div>
+        </div>
+    </div>
+
+     </SECtion>
+     <!--===================================================0-->
+     <!--==FONDO IMAGEN VECTORIAL=====0-->
+     <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+        <div id="bg-contacto">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,256L21.8,256C43.6,256,87,256,131,218.7C174.5,181,218,107,262,106.7C305.5,107,349,181,393,218.7C436.4,256,480,256,524,218.7C567.3,181,611,107,655,96C698.2,85,742,139,785,138.7C829.1,139,873,85,916,90.7C960,96,1004,160,1047,176C1090.9,192,1135,160,1178,170.7C1221.8,181,1265,235,1309,250.7C1352.7,267,1396,245,1418,234.7L1440,224L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+
+        </div>
+         <!--===================================================0-->
+     <!--==FORMULARIO=====0-->
+        <div class="container" id="contenedor-formulario">
+            <div id="titulo-formulario" class="text-center mb-4">
+                <div><img src="images/atencion.jpg" alt="contacto" class="img-fluid rounded"></div>
+                <h2>Contacto</h2>
+                <p class="fs-5">Estamos aqui para hacer realidad tus proyectos</p>
+            </div>
+            <form action="">
+                <div class="mb-3">                  
+                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                  </div>
+
+                  <div class="mb-3">                  
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre Apellido" required>
+                  </div>
+
+                  <div class="mb-3">                  
+                    <input type="tel" class="form-control" id="tel" placeholder="000-0000000" required>
+                  </div>
+
+                  <div class="mb-3">                   
+                    <textarea class="form-control" id="comentario" rows="3" placeholder="Escribe tu mensaje..."></textarea>
+                  </div>
+
+                  <div class="mb-3">
+                    <button type="button" class="btn btn-primary w-100 fs-5"></button>
+                  </div>
+            </form>
+        </div>
+
+     </section>
+
+      <!--===================================================0-->
+     <!--==PIE DE PAGINA=====0-->
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">NovaCafe. &copy; Todos los derechos reservados 2022.</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
