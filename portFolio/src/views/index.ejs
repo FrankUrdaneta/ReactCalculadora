@@ -1,0 +1,456 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="urdanetafranklyn" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="author" content="urdanetafranklyn" />
+    <title><%=title%></title>
+    <%-include('partials/head.ejs')%>
+  
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+<body>
+    <!--contains all the div-->
+    <div id="all">
+    <!--mouse  follower-->
+        <div class="cursor"></div>
+    <!--mouse  follower-->
+    <!--loader-->
+        <div id="loader">
+            <span class="color">Urdaneta </span>Franklyn
+        </div>
+    <!--loader-end-->
+    <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+    <!--link-screen-->
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="images/willy wonka logo.png" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link" >INICIO</a>
+                <a href="#" data-text="ABOUT" id="about-link" >SOBRE MI</a>
+                <a href="#" data-text="BLOG" id="blog-link" >BLOG</a>
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
+                <a href="#" data-text="CONTACT" id="contact-link" >CONTACTO</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+          <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img src="images/willy wonka logo.png" alt="logo">
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+          <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+              <!--Social Media Links-->
+            <div class="social-media-links">
+               <a href="https://www.instagram.com/urdanetafranklyn/" target="_blank"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a><!--Your instagram homepage link inser in place of "#"-->
+                <!--a href="#"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a-->
+                <a href="https://www.linkedin.com/in/martin-urdaneta-47a349209/" target="_blank"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+                <!--a href="#"><img src="images/twitter logo.png" class="social-media" alt="twitter-logo"></a-->
+
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                <div class="firstline"><span class="color">Urdaneta  </span>Franklyn</div>
+                <div class="secondline">
+                Soy
+            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Tecnico Informatico.", " Desarollador Web.", "Autodidacta ." ]'></span>
+            <span class="slash">|</span>
+        </div>
+                    <div class="contact">
+                <!--a href="Mailto:6erozz9@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
+                <!--a href="Tel:+543516863486"><img src="images/call.png" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                    </div>    
+            </div>
+            </div>
+            <!--header image-->
+            <div class="header-image">
+            <img src="images/image.jpeg" alt="logo"  id="myimage">
+            </div>
+            <!--header image end-->
+        </div>
+           <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <%-include('partials/color.ejs')%>
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    Sobre <span class="color">Mi</span>
+                    <span class ="header-caption">Conoce<span class="color">me.</span></span>
+                </div>
+                <div class="about-main">
+            <div class="about-first-paragraph wow">
+            <!--about description-->
+               <span class="about-first-line">
+                    Soy un creativo 
+                    <span class="color">Desarollador web</span>
+                     Vivo actualmente en Cordoba Argentina. </span>
+                     <br>
+               <span class="about-second-line">Hola soy Franklyn, Tengo 34 años de edad Venezolano, Hace años decidi comenzar mi Mundo en la programacion, Soy Autodidacta, persistente y responsable en lo que hago
+                 durante mi experiencia como desarrollador Web , he adquirido las habilidades y conocimientos necesarios para que tu proyecto sea un éxito. Disfruto cada paso mientras trabajo.
+            </span>
+            <!--div class="cv">
+                <a href="#"><button>Download <span class="colors">CV</span></button></a>
+            </div-->
+            </div>
+            <!--about picture-->
+            <div class="about-img">
+                <img src="images/about.jpg" alt="Your Image">
+            </div>
+            </div>
+    
+            </div>
+            <!--services start-->
+            <div id="services">
+                <%-include('partials/color.ejs')%>
+            <!--services header-->
+                    <div class="services-heading wow">
+                        <span class="color">Mis</span> Servicios
+                    </div>
+            <!--services header end-->
+            <!--services content-->
+                    <div class="services-content">
+                           <div class="service-one service wow">
+                               <div class="service-img">
+                               <img src="images/coding.png" alt="service-one">
+                               </div>
+                               <div class="service-description">
+                                <h2>Diseño Web</h2>
+                                <p>Variacion de estilos adaptados a tu empresa, totalmente responsive, aprovecha la evolucion de las paginas web para tu marketing
+                                    , diseños actualizados <span class="color"> sin costo Inicial</span></p>
+                               </div>
+                           </div>
+                           <div class="service-two service wow">
+                               <div class="service-img">
+                               <img src="images/instagram.png" alt="service-two">
+                               </div>
+                               <div class="service-description">
+                                <h2>Social Media</h2>
+                                <p>Ademas ayudamos a crecer tu empresa mediante las redes sociales, publicidad, te enseñare tecnicas que te sorprenderan</p>
+                               </div>
+                           </div>
+                           <div class="service-three service wow">
+                            <div class="service-img">
+                               <img src="images/bulb.png" alt="service-three">
+                            </div>
+                            <div class="service-description">
+                                <h2>Diseños creativos</h2>
+                                <ul>
+                                    <li>Diseños minimalistas</li>
+                                    <li>Diseños con efectos sorpresas y desplazamientos</li>
+                                    <li>Diseños retros</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--services content end-->
+            <!--services end-->
+            <div id="skills">
+                <div class="skills-header">
+                     Mis <span class="color"> Habilidades</span>
+                </div>
+                <div class="skills-content " style="text-align: center;">
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        HTML
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="html-progress wow">95%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                      Javascript
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="js-progress wow">80%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Css
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="adobe-progress wow">83%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        PHP
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="php-progress wow">50%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Git Hub
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="jquery-progress wow">70%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Boostrap
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="jquery-progress wow">85%</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+             <div class="footer-text">
+                 <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px">urdanetafranklyn
+             </div>
+            </div>
+    <!--copyright-section-->
+        </div>
+        <!--about end-->
+        <!--portfolio-->
+        <div id="portfolio">
+            <%-include('partials/color.ejs')%>
+            <div class="portfolio-header"> <span class="color"> Mi </span> Portfolio
+            <span class ="header-caption"> Algo de mi <span class="color"> Trabajo</span></span></div>
+             <div id="portfolio-content">
+                 <div class="portfolio portfolio-first">
+                     <div class="portfolio-image">
+                        <img src="images/portfolio-first.jpg" alt="portfolio-first">
+                     </div>
+                     <div class="portfolio-text">
+                         <h2>Aplicacion con NodeJs</h2>
+                         <p>Mi primera aplicacion con NodeJs , express ejs heroku, aprendiendo cada dia hermosos framework</p>
+                         <div class="button"><a href="https://unnovatoandshes.herokuapp.com/" target="_blank"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                     </div>
+                 </div>
+                 <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-second.jpg" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Diseño Web</h2>
+                        <p>Pagina responsive, uso de sliders typerwrite google location, algo simple pero al grano del cafe.</p>
+                        <div class="button"><a href="https://lenguajeswebvsnovato.000webhostapp.com/" target="_blank"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+             
+                <div class="portfolio portfolio-third">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Panel de control web</h2>
+                        <p>Proyecto en curso, consumo de api carga de tablas, uso de modo nocturno mediante javascript herramientas de comodidades al usuario</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Este espacio es para tu empresa...</h2>
+                        <p>Doy lo mejor de mi en cada pagina que desarollo, tu tiempo vale</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                 </div>
+                    <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> urdanetafranklyn
+                </div>
+               </div>
+       <!--copyright-section-->
+             </div>
+        <!--portfolio end-->
+        <!--blog-->
+        <div id="blog">
+            <%-include('partials/color.ejs')%>
+        <div class="blog-header"> Blogs</span>
+            <span class ="header-caption"> Algo mas <span class="color"> de Mi.</span></span></div>
+            <div class="blog-content">
+                 <div class="blogs">
+                     <a href="#">
+                     <div class="img">
+                         <img src="images/post-one.jpg" alt="blog-one">
+                        <div class="blog-date">8 May</div>
+                     </div>
+                     <div class="blog-text">
+                         <h3>Familia el motor de mis dias</h3>
+                         <p>Ellas son quienes siempre me motivan a dar lo mejor de mi, el amor y calor de familia es como un rico cafe.</p>
+                     </div></a>
+                 </div>      
+                 <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-two.jpg" alt="blog-two">
+                        <div class="blog-date">16 Jan,20</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Codigo pero no llaves</h3>
+                        <p>Aunque adoro las motos no se usar una llave allem o un destornillador</p>
+                    </div></a>
+                </div>      
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-three.jpg" alt="blog-three">
+                        <div class="blog-date">30 Nov,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Amor al Cafe</h3>
+                        <p>Uno de los mejores amigos para pensar y programar sin duda un buen cafe, un buen cafe hara que tu codigo fluya como el rio</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-four.jpg" alt="blog-four">
+                        <div class="blog-date">6 Jul,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Mi primera linea de codigo</h3>
+                        <p>No se si todos lo hacen pero cuando inicie en la programacion quise guardar la imagen de mi primer linea de codigo, pense en algun dia compartirla.</p>
+                    </div></a>
+                </div>  
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-five.jpg" alt="blog-five">
+                        <div class="blog-date">1 Jun,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Comida Amor y codigo</h3>
+                        <p>Una mente bien alimentada sin duda traera las mejores ideas para plasmar sobre tu codigo</p>
+                    </div></a>
+                </div>  
+                <!--div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img src="images/post-six.jpg" alt="blog-six">
+                        <div class="blog-date">28 Feb,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Business Trip</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora dolorum fuga ratione, unde, 
+                            ex quaerat iste numquam nemo nihil nobis rem sint quia recusandae dignissimos quos ut rerum nam.</p>
+                    </div></a>
+                </div-->        
+            </div>
+               <!--copyright-section You Can Remove After Downloading-->
+               <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> urdanetafranklyn
+                </div>
+               </div>
+       <!--copyright-section-->
+        </div>
+        <!--blog end-->
+        <!--contact-->
+     <div id="contact">
+        <%-include('partials/color.ejs')%>
+         <div class="contact-header">Contacta<span class="color">Me</span>
+        <div class="contact-header-caption"> <span class="color"> Ponerse </span> En Contacto.</div></div>
+        <div class="contact-content">
+            <!--Contact form-->
+             <div class="contact-form">
+                <div class="form-header">
+                    Escribeme
+                </div>
+            <form id="formulario" class="formulario">
+                <div class="input-line">
+                    <input name="nombre" id="name" type="text" placeholder="Nombre" required class="input-name"> 
+                    <input name="email" id="email" type="email" required placeholder="Escriba su Correo Electrónico" class="input-name">   
+                </div>
+                <input type="text" id="subject" placeholder="Tema" class="input-subject">
+                <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
+                <button id="submit" type="submit" class="boton"> Enviar WhatsApp</button>
+            </form>
+            </div>
+            <!--Contact form-->
+            <!--Contact information-->
+             <div class="contact-info">
+                <div class="contact-info-header">
+                    Informacion de contacto
+                </div>
+                <div class="contact-info-content">
+                <div class="contect-info-content-line">
+                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                    <div class="contact-info-icon-text">
+                        <h6>Nombre</h6>
+                        <p>Urdaneta Franklyn</p>
+                  </div>
+                </div>
+                <div class="contect-info-content-line">
+                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Ubicacion</h6>
+                      <p>Cordoba, ARGENTINA</p>
+                </div>
+              </div>
+              <div class="contect-info-content-line">
+                  <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Llamar</h6>
+                      <p>+543516863486</p>
+                </div>
+              </div>
+              
+              <div class="contect-info-content-line">
+                  <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Email</h6>
+                      <p>urdanetafranklyn@gmail.com</p>
+                </div>
+              </div>
+                </div>
+            <!--Contact information end-->
+           </div>
+        </div>
+                    <!--copyright-section You Can Remove After Downloading-->
+                    <%-include('partials/footer.ejs')%>       
+
+</body>
+</html>
